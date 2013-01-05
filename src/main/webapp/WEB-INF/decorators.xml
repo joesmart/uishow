@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layouts/">
+	<excludes>
+		<pattern>/static/*</pattern>
+		<pattern>/api/*</pattern>
+	</excludes>
+	
+	<!--<decorator name="default" page="default.jsp">-->
+		<!--<pattern>/*</pattern>-->
+	<!--</decorator>-->
+
+    <decorator name="menu" page="menu.jsp"/>
+    <decorator name="nav" page="navigator.jsp"/>
+    <decorator name="js" page="js.jsp"/>
+    <decorator name="breadcrumb" page="breadcrumb.jsp"/>
+    <decorator name="default" page="main.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+
+</decorators>
