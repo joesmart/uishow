@@ -3,14 +3,9 @@
 <div class="span2 main-menu-span">
     <div class="well nav-collapse sidebar-nav">
         <ul class="nav nav-tabs nav-stacked main-menu">
-            <li class="nav-header hidden-tablet">图片</li>
-            <li><a class="ajax-link" href="dashboard.jsp?type=all"><i class="icon-home"></i><span class="hidden-tablet"> 全部</span></a></li>
-            <li><a class="ajax-link" href="dashboard.jsp?type=unchecked"><i class="icon-eye-open"></i><span class="hidden-tablet">未审核</span></a></li>
-            <li><a class="ajax-link" href="dashboard.jsp?type=latest"><i class="icon-edit"></i><span class="hidden-tablet">最近上传</span></a></li>
-            <li class="nav-header hidden-tablet">操作</li>
-            <li><a class="ajax-link" href="upload.jsp"><i class="icon-list-alt"></i><span class="hidden-tablet"> 上传</span></a></li>
-            <li><a class="ajax-link" href="createWorkspace.jsp"><i class="icon-font"></i><span class="hidden-tablet"> 创建工作空间</span></a></li>
-            <li><a class="ajax-link" href="createTag.jsp"><i class="icon-picture"></i><span class="hidden-tablet"> 创建标签</span></a></li>
+            <li class="nav-header hidden-tablet">示例</li>
+            <li><a class="ajax-link" href="form.jsp?type=all"><i class="icon-home"></i><span class="hidden-tablet"> 表单</span></a></li>
+            <li><a class="ajax-link" href="datatable.jsp"><i class="icon-list-alt"></i><span class="hidden-tablet"> 表格</span></a></li>
             <li class="nav-header hidden-tablet">其他</li>
             <%--<li><a class="ajax-link" href="table.html"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
             <li><a class="ajax-link" href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>

@@ -123,6 +123,7 @@ public class TaskController {
 	 */
 	private Long getCurrentUserId() {
 		ShiroUser user = (ShiroUser) SecurityUtils.getSubject().getPrincipal();
-		return user.id;
+//		return user.id;
+        return 1L;
 	}
 }
