@@ -1,10 +1,11 @@
 <%@ page contentType="text/html;charset=utf-8" pageEncoding="utf-8" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="ctx" value="${pageContext.request.contextPath}"/>
 <div class="span2 main-menu-span">
     <div class="well nav-collapse sidebar-nav">
         <ul class="nav nav-tabs nav-stacked main-menu">
             <li class="nav-header hidden-tablet">示例</li>
-            <li><a class="ajax-link" href="form.jsp?type=all"><i class="icon-home"></i><span class="hidden-tablet"> 表单</span></a></li>
+            <li><a class="ajax-link" href="${ctx}/task/create"><i class="icon-home"></i><span class="hidden-tablet"> 表单</span></a></li>
             <li><a class="ajax-link" href="datatable.jsp"><i class="icon-list-alt"></i><span class="hidden-tablet"> 表格</span></a></li>
             <li class="nav-header hidden-tablet">其他</li>
             <%--<li><a class="ajax-link" href="table.html"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
